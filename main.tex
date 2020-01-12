@@ -1,0 +1,111 @@
+\documentclass[conference]{IEEEtran}
+\newtheorem{definition}{Definition}
+\usepackage{dblfloatfix}
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+%\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\usepackage{algorithm}
+\usepackage{changepage}
+\usepackage{comment}
+%\usepackage[title]{appendix}
+\usepackage{hyperref}
+%\usepackage{caption}
+%\usepackage[font=scriptsize]{subcaption}
+\usepackage{color} % added by Bayzid
+\newcommand{\commentA}[1]{{\color{red} #1}}
+\newcommand{\commentM}[1]{{\color{blue} #1}}
+\usepackage{subcaption}
+\renewcommand{\algorithmiccomment}[1]{~{\scriptsize\ttfamily{/*#1*/}}}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{numprint}
+%to squeeze space between sections, subsections and subsubsections
+%\makeatletter
+%\renewcommand\section{\@startsection{section}{1}{\z@}%
+%	{-8\p@ \@plus -4\p@ \@minus -4\p@}%
+%	{6\p@ \@plus 4\p@ \@minus 4\p@}%
+%	{\normalfont\large\bfseries\boldmath
+%		\rightskip=\z@ \@plus 8em\pretolerance=10000 }}
+%\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+%	{-8\p@ \@plus -4\p@ \@minus -4\p@}%
+%	{6\p@ \@plus 4\p@ \@minus 4\p@}%
+%	{\normalfont\normalsize\bfseries\boldmath
+%		\rightskip=\z@ \@plus 8em\pretolerance=10000 }}
+%\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+%	{-4\p@ \@plus -4\p@ \@minus -4\p@}%
+%	{-1.5em \@plus -0.22em \@minus -0.1em}%
+%	{\normalfont\normalsize\bfseries\boldmath}}
+%\makeatother
+%\captionsetup{belowskip=-10pt}
+
+\begin{document}
+%
+\title{Evolutionary Multi-objective Optimization Improves Phylogenomic Analyses}
+%\title{Improving Accuracy of Species Tree Estimation by Employing Evolutionary Multi-objective Optimization}
+%\author{\IEEEauthorblockN{Muhammad Ali Nayeem}
+%	\IEEEauthorblockA{\textit{Department of CSE, BUET} \\
+%		Dhaka, Bangladesh \\
+%		ali\_nayeem@cse.buet.ac.bd}
+%	\and
+%	\IEEEauthorblockN{Md. Shamsuzzoha Bayzid}
+%	\IEEEauthorblockA{\textit{Department of CSE, BUET} \\
+%		Dhaka, Bangladesh \\
+%		shams\_bayzid@cse.buet.ac.bd}
+%	\and
+%	\IEEEauthorblockN{Sakshar Chakravarty}
+%	\IEEEauthorblockA{\textit{Department of CSE, BUET} \\
+%		Dhaka, Bangladesh \\
+%		saksharchakravarty5068@gmail.com}
+%	\and
+%	\IEEEauthorblockN{Mohammad Saifur Rahman}
+%	\IEEEauthorblockA{\textit{Department of CSE, BUET} \\
+%		Dhaka, Bangladesh \\
+%		mrahman@cse.buet.ac.bd}
+%	\and
+%	\IEEEauthorblockN{M. Sohel Rahman}
+%	\IEEEauthorblockA{\textit{Department of CSE, BUET} \\
+%		Dhaka, Bangladesh \\
+%		msrahman@cse.buet.ac.bd}
+%}
+\author{\IEEEauthorblockN{Muhammad Ali Nayeem\IEEEauthorrefmark{2}, Md. Shamsuzzoha Bayzid\IEEEauthorrefmark{2}, Sakshar Chakravarty\IEEEauthorrefmark{2}, Mohammad Saifur Rahman\IEEEauthorrefmark{2}\\ and M. Sohel Rahman\IEEEauthorrefmark{2}\IEEEauthorrefmark{1}}
+	\IEEEauthorblockA{\IEEEauthorrefmark{2}Department of CSE, BUET, 
+		Dhaka, Bangladesh}
+	\IEEEauthorblockA{\IEEEauthorrefmark{1}Corresponding author, Email: msrahman@cse.buet.ac.bd}
+%	\IEEEauthorblockA{\IEEEauthorrefmark{3}Starfleet Aca
+%		demy, San Francisco, California 96678-2391\\
+%		Telephone: (800) 555--1212, Fax: (888) 555--1212}
+%	\IEEEauthorblockA{\IEEEauthorrefmark{4}Tyrell Inc.,
+%		123 Replicant Street, Los Angeles, California 90210
+%		--4321}
+}
+
+\maketitle              % typeset the header of the contribution
+%
+\input{section_0_Abstract} 
+\input{section_1_Introduction} 
+\input{section_2_Problem}
+\input{section_3_Methods}
+\input{section_4_Results}
+\input{section_5_Conclusion}
+
+
+
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,main_bib}
+
+%\input{section_6_Appendix}
+\end{document}
